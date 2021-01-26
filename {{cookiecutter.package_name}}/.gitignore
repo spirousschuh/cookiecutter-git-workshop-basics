@@ -130,6 +130,3 @@ dmypy.json
 
 #PyCharm
 .idea
-
-# default name of the package template
-git_workshop_basic
