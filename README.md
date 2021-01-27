@@ -12,14 +12,12 @@ Please make sure that you install the following things:
  * [Create an SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 
-TODO: 
-- Guide to create your own repository
+## Workshop Goal
+
+The goal of this workshop is to familiarize the user with a basic git workflow
+that is described in the [Recipe.md](Recipe.md) file.
+
+Therefore we will practise it in an interactive way on a sample package. 
+To do this the user may complete the task in [Task.md file](Tasks.md).
 
 
-
-
-
-## Sources
-
-The sample picture was taken by Wim van Rossem / Anefo and is downloaded from
-[Wikipedia](https://commons.wikimedia.org/w/index.php?curid=68058792)
