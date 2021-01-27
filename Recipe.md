@@ -2,10 +2,14 @@
 
 ## Idea
 
-This is a concise manual to a basic GIT-workflow. You can find more details
+This is a concise manual to a basic Git workflow. You can find more details
 [here](https://guides.github.com/introduction/flow/). For each step you can 
-find instructions how to do it using PyCharm. There is different ways to do it,
-feel free to explore them on your own.
+find instructions how to follow that workflow using PyCharm. There is different
+ways to achieve the same goal without PyCharm. Once you are familiar with the
+basic concepts you can use any tool you like.
+
+To setup your system to be able to follow these instructions, please take a 
+look [here](README.md#Setup)
 
 ## Ingredience
  * PyCharm (installed)
@@ -18,7 +22,7 @@ feel free to explore them on your own.
 Once you have an idea what you want to achieve the following steps will help you
 to get there.
 
-1. [Update Local](#1-sync-local)
+1. [Update Local](#1-update-local)
 2. [Create Branch](#2-create-branch)
 3. [Add Commits](#3-add-commits)
 4. [Push Branch](#4-push-branch)
@@ -28,7 +32,7 @@ to get there.
 
 
 <a name="sync"></a>
-### 1. Sync Local
+### 1. Update Local
 
 First we want to make sure to use the newest version of the repositories main
 branch. Therefore we click on the button in the bottom right corner next to the

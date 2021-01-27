@@ -69,10 +69,12 @@ find.
    ```shell
    pip install -e .
    ```
-3. Use the basic git workflow described in the [Recipe.md](Recipe.md) file to 
+3. Finally we are done with doing dark magic on the command line. So please
+   start PyCharm and open `your_project`.
+4. Use the basic git workflow described in the [Recipe.md](Recipe.md) file to 
    edit the README.md.
    
-4. Once you are done, follow the workflow all the way and merge the feature
+5. Once you are done, follow the workflow all the way and merge the feature
    branch into main/master
    
 ## Task 3: Create a Thumbnail
