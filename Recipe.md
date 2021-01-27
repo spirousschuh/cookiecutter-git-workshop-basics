@@ -18,13 +18,13 @@ feel free to explore them on your own.
 Once you have an idea what you want to achieve the following steps will help you
 to get there.
 
-1. [Update Local](#local)
-2. [Create Branch](#branch)
-3. [Add Commits](#commit)
-4. [Push Branch](#push)
-5. [Merge Request](#request)
-6. [Discussion](#discussion)
-7. [Merge Branch](#merge-branch)
+1. [Update Local](#1-sync-local)
+2. [Create Branch](#2-create-branch)
+3. [Add Commits](#3-add-commits)
+4. [Push Branch](#4-push-branch)
+5. [Merge Request](#5-merge-request)
+6. [Discussion](#6-discussion)
+7. [Merge Branch](#7-merge-branch)
 
 
 <a name="sync"></a>
