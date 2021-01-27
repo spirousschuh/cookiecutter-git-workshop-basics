@@ -1,7 +1,5 @@
 # Recipe
 
-[TOC]
-
 ## Idea
 
 This is a concise manual to a basic GIT-workflow. You can find more details
@@ -20,10 +18,13 @@ feel free to explore them on your own.
 Once you have an idea what you want to achieve the following steps will help you
 to get there.
 
-1. [ Description. ](#sync)
-2. [ Usage tips. ](#usage)
-3. [Merge Request](#merge-request)
-3. [Merge Request](#merge)
+1. [Update Local](#local)
+2. [Create Branch](#branch)
+3. [Add Commits](#commit)
+4. [Push Branch](#push)
+5. [Merge Request](#request)
+6. [Discussion](#discussion)
+7. [Merge Branch](#merge-branch)
 
 
 <a name="sync"></a>
@@ -42,6 +43,7 @@ the upper left corner we can find the menue bar, click on "Git" and choose pull
 in the pull down menue.
 ![Git Pull](images/git_pull.png)
 
+<a name="branch"></a>
 ### 2. Create Branch
 
 Now we create a branch to implement our feature. In order to do so move your 
@@ -51,6 +53,7 @@ which should be main/master, next to the patlock.
 Within the context menue click on "New Branch" and enter a branch name that
 relates to your feature idea.
 
+<a name="commit"></a>
 ### 3. Add Commits
 
 Now you need to add, change or delete some content in the repository to achieve
@@ -63,7 +66,8 @@ new file.
 ![Add to Git](images/add_to_git.png)
 Normally that is a good idea and you shall choose "Add".
 
-### 4. Push Commits
+<a name="push"></a>
+### 4. Push Branch
 
 Now you want to push the branch with your changes to the upstream server. This
 way you create an identical copy of your local branch on the server. To do so
@@ -71,10 +75,39 @@ way you create an identical copy of your local branch on the server. To do so
 go to the upper left corner where you can find the menue bar and click on `Git`
 and choose `push` in the pull down menue.
 
-<a name="merge"></a>
+<a name="request"></a>
 ### 5. Merge Request
+Now that you pushed your local branch to the upstream server, you want to create
+a merge request on the server. Therefore open your browser and go to 
+`https://git.tu-berlin.de/your_name/your_project/`. On the left hand side you
+click on `Merge Requests`. Then you get to a page that looks like this:
+![Merge Request](images/merge_request.png)
+Here click on `Create merge request` to create a request to merge `your_branch`
+(here: "basic_description") into main/master. Then you can add a description
+![Merqe Request description](images/merge_request2.png)
+and assign a reviewer. Finally submit you merge request.
 
 
+<a name="discussion"></a>
+### 6. Discussion
+
+Now the reviewer of the merge request checks your changes and gives you
+feedback. After some discussion you might want to go back to step 3 and add 
+additional commits to change the current state. For the sake of practising 
+some interations in the workshop, you can just approve your own merge requests
+and continue.
+
+<a name="merge"></a>
+### 7. Merge Branch
+
+When all discussions are done and you are sure that your changes improve the
+main/master branch, it is time to merge your branch by
+![Merge branch](images/final_merge.png)
+clicking on `Merge`. 
+
+
+Now master on the upstream server is newer than your local branch and its time
+to start all over again ([step 1](#local)).
 
 
 

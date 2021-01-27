@@ -51,6 +51,10 @@ Therefore we do the following steps:
    (second red box). You need to replace `cd existing_folder` with the package
    name that you chose in step 5. In case you forgot the package name you can 
    check it with `ls -l` which displays the contentn of the current directory.
+   (if you get an error like `error: src refspec main does not match any` you 
+   need to replace main with master)
+9. Go to your project webpage `https://git.tu-berlin.de/your_name/your_project`.
+   When you see a basic README.md file you succeeded.
 
 
 ## Task 2: Improve the Readme
@@ -108,7 +112,7 @@ git workflow described in [Recipe.md](Recipe.md).
    counter-clockwise, it should be clockwise.
 5. Merge your feature branch   
 
-## Task 6(optional): Color to Black and White
+## Task 6 (optional): Color to Black and White
 
 This task is more complex. You might want to do some internet research.
 
