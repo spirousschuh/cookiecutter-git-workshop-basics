@@ -36,24 +36,42 @@ Therefore we do the following steps:
     ```shell
     cookiecutter https://github.com/spirousschuh/cookiecutter-git-workshop-basics
     ```
+   Now you will see 
+   ```shell
+   author_name [Josephine Doe]: 
+   ```
+   This requires your input now. You can either press `Enter`, then the 
+   author_name will be Josephine Doe. Or you can enter your own name.
 
-5. Answer the questions that will be prompted to you. You do not need to reveal
-    your real data, as it is a toy project anyway.
+5. Answer the questions that will be prompted to you or press `Enter` to choose
+   the default value. You do not need to reveal
+   your real data, as it is a toy project anyway. But you could choose answers
+   like these:
+   ![Answers](images/questions.png)
+   Pay attention at the third question. The answer to that question will be
+   the name of the folder where you can find your package later.
+   
+6. Make sure that the folder exists by entering the folder.
+   ```shell
+   cd my_image_package
+   ```
+   The name of the folder corresponds to your answer to the question
+   `package_name [git_workshop_basic]:`.
 
-6. Go back to your browser and open 
+7. Go back to your browser and open 
    [https://git.tu-berlin.de](https://git.tu-berlin.de). Then go to the project
    that you just created in the [last section](#create-project-on-gitlab). As it
    is an empty project the landing page should look like this:
    ![empty project](images/project_setup.png)
-7. Follow the step that are displayed under `Git global setup` (first red box)
+8. Follow the step that are displayed under `Git global setup` (first red box)
    one by one, i.e.    you copy each line to your terminal and press `Enter`.
-8. Follow the steps you find in the section `Push an existing folder` 
+9. Follow the steps you find in the section `Push an existing folder` 
    (second red box). You need to replace `cd existing_folder` with the package
    name that you chose in step 5. In case you forgot the package name you can 
-   check it with `ls -l` which displays the contentn of the current directory.
+   check it with `ls -l` which displays the content of the current directory.
    (if you get an error like `error: src refspec main does not match any` you 
    need to replace main with master)
-9. Go to your project webpage `https://git.tu-berlin.de/your_name/your_project`.
+10. Go to your project webpage `https://git.tu-berlin.de/your_name/your_project`.
    When you see a basic README.md file you succeeded.
 
 
