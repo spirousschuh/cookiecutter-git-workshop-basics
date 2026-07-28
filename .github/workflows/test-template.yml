@@ -16,8 +16,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install cookiecutter
-        run: pip install cookiecutter
+      - name: Install cookiecutter and tox
+        run: pip install cookiecutter tox
 
       - name: Generate default package and run its test suite
         run: make test_default_package
