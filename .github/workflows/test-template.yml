@@ -1,0 +1,23 @@
+name: Test cookiecutter template
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test-default-package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install cookiecutter
+        run: pip install cookiecutter
+
+      - name: Generate default package and run its test suite
+        run: make test_default_package
