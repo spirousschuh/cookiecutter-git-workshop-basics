@@ -1,4 +1,14 @@
 # cookiecutter-git-workshop-basics
+
+<!-- The readthedocs URL below is projected/anticipated, following the naming
+     convention used by the sibling workshop repos; double-check it once the
+     joint curriculum site is actually published. -->
+> This is Part 1 of a 4-part git & Python workshop series. See the full
+> curriculum for in-depth explanations of every concept:
+> https://git-workshop-py-packaging.readthedocs.io/en/latest/ (or browse
+> https://github.com/spirousschuh/git-workshop-py-packaging). This repository
+> covers the hands-on steps for this session.
+
 This template creates simple repository for learning the basic git usage.
 
 

@@ -1,5 +1,9 @@
 # Tasks
 
+> **Note:** some screenshots in this guide are placeholders pending a refresh
+> of the 2021-era GitLab UI captures. Where a screenshot is missing, a short
+> prose description of what you should see/do is given instead.
+
 This file contains all tasks that will help you to practise what you learned
 about Git. To get most out of the workshop please try to solve these tasks and
 do not hesitate to ask the instructor for help.
@@ -45,11 +49,18 @@ Therefore we do the following steps:
 
 5. Answer the questions that will be prompted to you or press `Enter` to choose
    the default value. You do not need to reveal
-   your real data, as it is a toy project anyway. But you could choose answers
-   like these:
-   ![Answers](images/questions.png)
-   Pay attention at the third question. The answer to that question will be
-   the name of the folder where you can find your package later.
+   your real data, as it is a toy project anyway. Cookiecutter will prompt you
+   one question at a time on the command line, roughly like this:
+   ```shell
+   author_name [Josephine Doe]: Josephine Doe
+   author_email [your@address.eu]: josephine@example.com
+   package_name [git_workshop_basic]: my_image_package
+   package_description [A lightweight python package to practise some git]:
+   package_url [https://git.tu-berlin.de/you/your_repo_name]:
+   ```
+   Pay attention at the third question (`package_name`). The answer to that
+   question will be the name of the folder where you can find your package
+   later.
    
 6. Make sure that the folder exists by entering the folder.
    ```shell
@@ -69,8 +80,6 @@ Therefore we do the following steps:
    (second red box). You need to replace `cd existing_folder` with the package
    name that you chose in step 5. In case you forgot the package name you can 
    check it with `ls -l` which displays the content of the current directory.
-   (if you get an error like `error: src refspec main does not match any` you 
-   need to replace main with master)
 10. Go to your project webpage `https://git.tu-berlin.de/your_name/your_project`.
    When you see a basic README.md file you succeeded.
 
@@ -83,7 +92,7 @@ find.
    ```shell
    cd /path/to/your_package
    ```
-2. Install your package in editable mode (your changes are regonized)
+2. Install your package in editable mode (your changes are recognized)
    ```shell
    pip install -e .
    ```
@@ -93,7 +102,7 @@ find.
    edit the README.md.
    
 5. Once you are done, follow the workflow all the way and merge the feature
-   branch into main/master
+   branch into main
    
 ## Task 3: Create a Thumbnail
 
@@ -110,7 +119,7 @@ find.
    to create a thumbnail over command line.
 
 4. Once you are done, follow the workflow all the way and merge the feature
-   branch into main/master
+   branch into main
    
 ## Task 4: Change thumbnail size
 
@@ -127,7 +136,7 @@ git workflow described in [Recipe.md](Recipe.md).
 
 1. Find the code that rotates the image.
 2. Document that functionality in the README.md
-3. Make a seperate commit for the documentation
+3. Make a separate commit for the documentation
 4. Now you should change the direction of rotation. Currently the direction is
    counter-clockwise, it should be clockwise.
 5. Merge your feature branch   
@@ -140,5 +149,5 @@ This task is more complex. You might want to do some internet research.
    ```shell
    image-magic color_to_bw --input-path=/path/color.jpg --output-path=/path/bw.jpg
    ```
-2. Document this feature in a seperate commit
+2. Document this feature in a separate commit
 3. Merge your feature branch

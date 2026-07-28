@@ -19,7 +19,7 @@ def thumbnail(input_path, output_path):
     except OSError:
         click.echo("cannot create thumbnail for %s" % input_path)
 
-    click.echo('Sucessfully saved image at %s' % output_path)
+    click.echo('Successfully saved image at %s' % output_path)
 
 
 @cli_group.command()
@@ -34,4 +34,4 @@ def rotate(input_path, output_path, angle):
     except OSError:
         click.echo("cannot rotate the image in %s" % input_path)
 
-    click.echo('Sucessfully saved image at %s' % output_path)
+    click.echo('Successfully saved image at %s' % output_path)
